@@ -15,37 +15,75 @@
     font-family: Days, Calibri, sans-serif;
   }
 
-  .header {
-    background-color: #d9e9f0;
-    width: 0 auto;
-    height: 33vh;
-    margin: 30px;
+  header {
+    background-color: black;
   }
 
-  #logo {
+  .link-wrapper {
+    background-color: #d9e9f0;
+    width: 80vw;
+    height: 60px;
+    margin-top: 85px;
+    margin-left: 10px;
+    display: inline-block;
+    position: relative; 
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 1px 7px #ef2b3b;
+  }
+
+  .nav-links {
+    padding-left: 20px;
+    font-weight: 300;
+    line-height: 60px;
+    word-spacing: 15px;
+    text-align: center;
+  }
+
+  #site-logo img {
     float: left;
     border-radius: 50%;
     width: 15vw;
-    padding: 10px;
+    margin: 10px;
+    z-index: 10;
   }
 
-
-  nav {
-    float: right;
-    /* margin: 44px 30vw 0px 0px; */
-    position: relative;
-    right: 40%;
-    top: 50%;
-    font-weight: bold;
-  }
-
-  nav > a::after {
+  .nav-links > a::after {
     content: " |";
     text-decoration: none;
   }
 
-  nav > a {
+  .nav-links > a {
     text-decoration: none;
     color: black;
-    font-family: Calibri;
+    font-family: Days;
+  }
+
+  #landing-page {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin: 90px 10px 0px 20px;
+  }
+
+.interaction-box {
+  height: 600px;
+  width: 23%;
+  border: 3px solid red;
+  /* float: left; */
+  clear: left;
+  position: absolute;
+}
+
+  #hero-image {
+    width: 70%;
+    height: 600px;
+    background-image: url(../images/professional-golfer-bali.jpg);
+    background-size: cover;
+    /* float: right; */
+    position: absolute;
+    left: 300px;
+    margin-left: 20px;    
   }
