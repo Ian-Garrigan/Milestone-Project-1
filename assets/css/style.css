@@ -16,22 +16,24 @@
   }
 
   header {
-    background-color: black;
+    background-color: rgb(64, 154, 223);
+    height: 220px;
   }
 
   .link-wrapper {
     background-color: #d9e9f0;
-    width: 80vw;
+    width: 60vw;
     height: 60px;
     margin-top: 90px;
-    margin-left: 10px;
+    /* margin-left: 50px; */
     display: inline-block;
     position: relative; 
+    left: 200px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;  
-    box-shadow: 1px 7px rgb(34, 87, 179);
+    box-shadow: 1px 7px rgb(123, 140, 168);
   }
 
   .nav-links {
@@ -46,7 +48,7 @@
     float: left;
     border-radius: 50%;
     width: 15vw;
-    margin: 10px;
+    margin: 15px 40px;
     z-index: 10;
   }
 
@@ -75,6 +77,10 @@
   position: absolute;
   background-color: #d9e9f0;
   z-index: 5;
+}
+
+#dropdown-clubs {
+  margin: 40px 30px;
 }
 
   #hero-image {
@@ -175,6 +181,7 @@
 
 #live-info h1 {
   text-align: center;
+  margin-top: 20px;
 }
 
 footer {

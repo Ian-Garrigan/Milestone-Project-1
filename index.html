@@ -13,17 +13,19 @@
 <section>
     <header>
         <div>
-            <a href="index.html" id="site-logo">
-            <img src=assets/images/logo_new.png>
-            </a>
+            <h1>
+                <a href="index.html" id="site-logo">
+                    <img src=assets/images/logo_new.png alt="logo of character swinging a golf stick">
+                </a>
+            </h1>
         </div>
         <!-- links -->
         <div class="link-wrapper">
             <nav class="nav-links">
                 <a href="results.html">Results</a>
                 <a href="shop.html">Shop</a>
-                <a href="booking.html">Manage Booking</a>
-                <a href="">Weather</a>
+                <a href="booking.html">Booking</a>
+                <a href="#live-info">Weather</a>
             </nav>
         </div>
         <div class="icons">
@@ -35,14 +37,25 @@
 <section  id="landing-page">
    <div class="interaction-box">
 <!-- cont DIV with calender/nearby clubs, eircode, hot deals and user profile anchor -->
+        <form action="#" id="dropdown-clubs">
+            <label for="golf-club">Choose your club:</label>
+            <select name="golf-club" id="golf-club">
+                <option value="Donabate">Donabate</option>
+                <option value="Roganstown">Roganstown</option>
+                <option value="Portmarnock">Portmarnock</option>
+                <option value="Malahide">Malahide</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
    </div>
    <div id="hero-image">
         <div class="login-container">
         <form action="#" method="post" id="hero-login-forms">
             <label for="username">Username: </label>
-            <input type="text" name="username"><br>
+            <input type="text" id="username"><br>
             <label for="password">Password: </label>
-            <input type="password" name="password"><br>
+            <input type="password" id="password"><br>
         <button class="form-button">Login</button>
         </form>
         </div>
@@ -92,7 +105,7 @@
 <div>
     <iframe src="https://www.google.com/maps/d/embed?mid=1wVENLk00gV0dW-pkRJqUSwM5hFcdQJA&ehbc=2E312F" width="640" height="480"></iframe>
 
-    <iframe width="500" height="480" src="https://embed.windy.com/embed2.html?lat=53.385&lon=-6.213&detailLat=53.350&detailLon=-6.260&width=500&height=480&zoom=9&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1" frameborder="0"></iframe>
+    <iframe width="500" height="480" src="https://embed.windy.com/embed2.html?lat=53.385&lon=-6.213&detailLat=53.350&detailLon=-6.260&width=500&height=480&zoom=9&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"></iframe>
 </div>
 </section>
 <hr>
