@@ -9,6 +9,7 @@
   }
   body {
     font-family: Days, Calibri, sans-serif;
+    background: #f5f5f5;
   }
 
   h1, h2 {
@@ -17,7 +18,7 @@
 
   header {
     background-color: rgb(64, 154, 223);
-    height: 22vw;
+    height: 10vw;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -50,8 +51,8 @@
   #site-logo img {
     /* float: left; */
     border-radius: 50%;
-    width: 18vw;
-    margin: 1em;
+    width: 15.5vw;
+    margin: 1em 0.5em 0.5em 2em;
     z-index: 10;
   }
 
@@ -101,8 +102,8 @@
     background-color: rgba(82, 78, 78, 0.5);
     border-radius: 8px;
     position: absolute;
-    top: 2em;
-    right: 2em;
+    top: 3em;
+    right: 10em;
     margin: 0;
   }
 
@@ -119,6 +120,7 @@
     font-size: 17px;
     padding: 3px;
     margin-top: 10px;
+    cursor: pointer;
   }
 
   .register-container {
@@ -127,8 +129,8 @@
     background-color: rgba(82, 78, 78, 0.5);
     border-radius: 8px;
     position: absolute;
-    top: 25em;
-    right: 2em;
+    top: 28em;
+    right: 10em;
     padding: 15px;
     text-align: center;
   }
@@ -152,18 +154,48 @@
 }
 
 .local-courses-gallery {
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
+  margin-top: 3em;
 }
 
 .golf-course-view {
   width: 300px;
   height: 200px;
-  border: 2px solid blue;
   border-radius: 10px;
   display: inline-block;
   box-sizing: border-box;
-  margin: 50px;
+  margin: 3.25em;
+}
+
+#view-1 {
+  background-image: url(../images/corrstown_golf.jpg);
+  background-size: cover;
+}
+
+#view-2 {
+  background-image: url(../images/malahide_golf_club.jpg);
+  background-size: cover;
+}
+
+#view-3 {
+  background-image: url(../images/castleknock_golf_club.jpg);
+  background-size: cover;
+}
+
+#view-4 {
+  background-image: url(../images/island_golf_club.jpg);
+  background-size: cover;
+}
+
+#view-5 {
+  background-image: url(../images/st_margarets_golf_club.jpg);
+  background-size: cover;
+}
+
+#view-6 {
+  background-image: url(../images/donabate_golf_club.jpg);
+  background-size: cover;
 }
 
 #live-info {
@@ -181,7 +213,7 @@
 
 #live-info h2 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2.5em;
 }
 
 footer {
@@ -206,5 +238,6 @@ footer {
 hr {
   border: 0;
   height: 2px;
+  margin-top: 2.5em;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
