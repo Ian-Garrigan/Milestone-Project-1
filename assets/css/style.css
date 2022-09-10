@@ -17,11 +17,12 @@
   }
 
   header {
-    background-color: rgb(64, 154, 223);
+    background-color: rgb(110, 173, 221);
     height: 10vw;
     position: sticky;
     top: 0;
     z-index: 100;
+    border-bottom: 2.7px solid rgb(123, 140, 168);
   }
 
   .link-wrapper {
@@ -29,7 +30,6 @@
     width: 60vw;
     height: 60px;
     margin-top: 1em;
-    /* margin-left: 50px; */
     display: inline-block;
     position: absolute; 
     right: 2em;
@@ -49,7 +49,6 @@
   }
 
   #site-logo img {
-    /* float: left; */
     border-radius: 50%;
     width: 15.5vw;
     margin: 1em 0.5em 0.5em 2em;
@@ -58,6 +57,11 @@
 
   .nav-links > a::after {
     content: " |";
+    text-decoration: none;
+  }
+
+  .nav-links > :first-child::before {
+    content: "|  ";
     text-decoration: none;
   }
 
@@ -77,6 +81,8 @@
 .interaction-box {
   height: 600px;
   width: 30%;
+  border-top: 2px solid rgb(110, 173, 221);
+  border-bottom: 2px solid rgb(110, 173, 221);
   position: absolute;
   background-color: #d9e9f0;
   z-index: 5;
@@ -91,6 +97,8 @@
     height: 600px;
     background-image: url(../images/professional-golfer-bali.jpg);
     background-size: cover;
+    border-top: 2px solid rgb(110, 173, 221);
+    border-bottom: 2px solid rgb(110, 173, 221);
     float: right;
     position: relative;
     right: 0;
@@ -139,11 +147,23 @@
   text-align: center;
 }
 
+#inspo-background {
+  background-color: rgb(110, 173, 221);
+}
+
+#inspo-background h2 {
+  color: #f33535;
+  padding-top: 1em;
+}
+
 .golf-inspo {
   display: inline-block;
   height: 100px;
   width: 400px;
-  margin-top: 50px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  background-color: #d9e9f0;
+  border-radius: 5px;
 }
 
 .golf-inspo p {
@@ -154,7 +174,6 @@
 }
 
 .local-courses-gallery {
-  /* width: 100%; */
   text-align: center;
   margin-top: 3em;
 }
@@ -239,5 +258,6 @@ hr {
   border: 0;
   height: 2px;
   margin-top: 2.5em;
+  background-color: aqua;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
