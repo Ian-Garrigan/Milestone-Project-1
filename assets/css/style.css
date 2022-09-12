@@ -1,95 +1,96 @@
 @font-face {
-    font-family: Days;
-    src: local('days');
-  }
+  font-family: Days;
+  src: local('days');
+}
 
-  *  {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
 
-  body {
-    font-family: Days, Calibri, sans-serif;
-    background: #f5f5f5;
-    box-sizing: border-box;
-  }
+ul {
+  list-style-type: none;
+}
 
-  h1, h2 {
-    font-family: Days, Calibri, sans-serif;
-  }
+body {
+  font-family: Days, Calibri, sans-serif;
+  background: #f5f5f5;
+  box-sizing: border-box;
+}
 
-  mark {
-    background-color: #dfe40af0;
-    padding: 4px;
-    border-radius: 3px;
-  }
+h1,
+h2 {
+  font-family: Days, Calibri, sans-serif;
+}
 
-  header {
-    background-color: rgb(110, 173, 221);
-    height: 23vh;
-    border-bottom: 2.7px solid rgb(123, 140, 168);
-    margin-bottom: 11%;
-  }
+mark {
+  background-color: #dfe40af0;
+  padding: 4px;
+  border-radius: 3px;
+}
 
-  header h1 {
-    font-size: 5vw;
-    display: inline-block;
-    margin: 0.4em;
-    letter-spacing: 5px;
-  }
+header {
+  background-color: rgb(110, 173, 221);
+  height: 23vh;
+  border-bottom: 2.7px solid rgb(123, 140, 168);
+  margin-bottom: 11%;
+}
 
-  .link-wrapper {
-    background-color: #d9e9f0;
-    width: 60vw;
-    height: 60px;
-    margin-top: 2em;
-    display: inline-block;
-    position: absolute; 
-    right: 2em;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;  
-    box-shadow: 1px 7px rgb(123, 140, 168);
-  }
+header h1 {
+  font-size: 5vw;
+  display: inline-block;
+  margin: 0.4em;
+  letter-spacing: 5px;
+}
 
-  .nav-links {
-    padding-left: 20px;
-    font-weight: 300;
-    line-height: 60px;
-    word-spacing: 15px;
-    text-align: center;
-  }
+.link-wrapper {
+  background-color: #d9e9f0;
+  width: 60vw;
+  height: 60px;
+  margin-top: 2em;
+  display: inline-block;
+  position: absolute;
+  right: 2em;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-shadow: 1px 7px rgb(123, 140, 168);
+}
 
-  .nav-links a:hover {
-    color: #17c334f5;
-  }
+.nav-links {
+  padding-left: 20px;
+  font-weight: 300;
+  line-height: 60px;
+  word-spacing: 15px;
+  text-align: center;
+}
 
-  .nav-links > a::after {
-    content: " |";
-    text-decoration: none;
-  }
+.nav-links a:hover {
+  color: #17c334f5;
+}
 
-  .nav-links > :first-child::before {
-    content: "|  ";
-    text-decoration: none;
-  }
+.nav-links>a::after {
+  content: " |";
+  text-decoration: none;
+}
 
-  .nav-links > a {
-    text-decoration: none;
-    color: black;
-    font-family: Days;
-  }
+.nav-links> :first-child::before {
+  content: "|  ";
+  text-decoration: none;
+}
 
-  #landing-page {
-    width: 100%;
-    height: 600px;
-  }
+.nav-links>a {
+  text-decoration: none;
+  color: black;
+  font-family: Days;
+}
+
+#landing-page {
+  width: 100%;
+  height: 600px;
+}
 
 .interaction-box {
   height: 600px;
@@ -105,56 +106,58 @@
   margin: 40px 30px;
 }
 
-  #hero-image {
-    width: 70%;
-    height: 600px;
-    background-image: url(../images/professional-golfer-bali.jpg);
-    background-size: cover;
-    border-top: 2px solid rgb(110, 173, 221);
-    border-bottom: 2px solid rgb(110, 173, 221);
-    float: right;
-    position: relative;
-    right: 0;
-  }
+#hero-image {
+  width: 70%;
+  height: 600px;
+  background-image: url(../images/professional-golfer-bali-indonesia-edit.jpg);
+  background-size: cover;
+  border-top: 2px solid rgb(110, 173, 221);
+  border-bottom: 2px solid rgb(110, 173, 221);
+  float: right;
+  position: relative;
+  right: 0;
+}
 
-  .login-container {
-    width: 300px;
-    height: 150px;
-    background-color: rgba(82, 78, 78, 0.5);
-    border-radius: 8px;
-    position: absolute;
-    top: 3em;
-    right: 10em;
-    margin: 0;
-  }
+.login-container {
+  width: 300px;
+  height: 150px;
+  background-color: #f5f5f573;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%), 0 16px 30px 0 rgb(0 0 0 / 70%);
+  border-radius: 8px;
+  position: absolute;
+  top: 3em;
+  right: 10em;
+  margin: 0;
+}
 
-  #hero-login-forms {
-    padding: 15px;
-    text-align: center;
-  }
-  
-#hero-login-forms > label {
+#hero-login-forms {
+  padding: 15px;
+  text-align: center;
+}
+
+#hero-login-forms>label {
   padding: 5px;
 }
 
-  .form-button {
-    font-size: 17px;
-    padding: 3px;
-    margin-top: 10px;
-    cursor: pointer;
-  }
+.form-button {
+  font-size: 17px;
+  padding: 3px;
+  margin-top: 10px;
+  cursor: pointer;
+}
 
-  .register-container {
-    width: 230px;
-    height: 70px;
-    background-color: rgba(82, 78, 78, 0.5);
-    border-radius: 8px;
-    position: absolute;
-    top: 28em;
-    right: 10em;
-    padding: 15px;
-    text-align: center;
-  }
+.register-container {
+  width: 230px;
+  height: 70px;
+  background-color: #f5f5f573;
+  box-shadow: 0 10px 30px 0 rgb(0 0 0 / 20%), 0 16px 30px 0 rgb(0 0 0 / 70%);
+  border-radius: 8px;
+  position: absolute;
+  top: 28em;
+  right: 11em;
+  padding: 15px;
+  text-align: center;
+}
 
 #content-seperator {
   text-align: center;
@@ -203,6 +206,13 @@
   display: inline-block;
   box-sizing: border-box;
   margin: 3.25em;
+}
+
+.golf-course-view p {
+  background-color: rgba(255, 255, 255, 0.659);
+  border-radius: 3px;
+  height: 2em;
+  padding-top: 5%;
 }
 
 #view-1 {
@@ -261,7 +271,7 @@ footer h3 {
   display: inline-block;
 }
 
-.social-networks > li {
+.social-networks>li {
   display: inline;
 }
 
