@@ -23,13 +23,17 @@
     font-family: Days, Calibri, sans-serif;
   }
 
+  mark {
+    background-color: #dfe40af0;
+    padding: 4px;
+    border-radius: 3px;
+  }
+
   header {
     background-color: rgb(110, 173, 221);
-    height: 10vw;
-    /* position: sticky; */
-    /* top: 0; */
-    /* z-index: 100; */
+    height: 23vh;
     border-bottom: 2.7px solid rgb(123, 140, 168);
+    margin-bottom: 11%;
   }
 
   header h1 {
@@ -37,10 +41,6 @@
     display: inline-block;
     margin: 0.4em;
     letter-spacing: 5px;
-  }
-
-  header i {
-    font-size: 4vw;
   }
 
   .link-wrapper {
@@ -66,11 +66,8 @@
     text-align: center;
   }
 
-  #site-logo img {
-    border-radius: 50%;
-    width: 15.5vw;
-    margin: 1em 0.5em 0.5em 2em;
-    z-index: 10;
+  .nav-links a:hover {
+    color: #17c334f5;
   }
 
   .nav-links > a::after {
@@ -92,8 +89,6 @@
   #landing-page {
     width: 100%;
     height: 600px;
-    margin-top: 70px;
-    margin-bottom: 40px;
   }
 
 .interaction-box {
@@ -102,7 +97,7 @@
   border-top: 2px solid rgb(110, 173, 221);
   border-bottom: 2px solid rgb(110, 173, 221);
   position: absolute;
-  background-color: #d9e9f0;
+  background-color: #bcd6e29e;
   z-index: 5;
 }
 
@@ -167,11 +162,12 @@
 
 #inspo-background {
   background-color: rgb(110, 173, 221);
+  margin-top: 11%;
+  margin-bottom: 11%;
 }
 
 #inspo-background h2 {
-  color: #f02c2c;
-  text-shadow: #f5f5f5;
+  color: white;
   padding-top: 1em;
 }
 
@@ -194,13 +190,16 @@
 
 .local-courses-gallery {
   text-align: center;
-  margin-top: 3em;
+  padding-top: 4%;
+  margin-bottom: 11%;
+  background-color: #bcd6e29e;
 }
 
 .golf-course-view {
   width: 300px;
   height: 200px;
-  border-radius: 10px;
+  padding: 6px;
+  border-radius: 5px;
   display: inline-block;
   box-sizing: border-box;
   margin: 3.25em;
@@ -237,26 +236,29 @@
 }
 
 
-#live-info div {
-  display: inline;
+#live-info {
+  background-color: #bcd6e29e;
 }
 
 #live-info iframe {
   margin-left: 30px;
   margin-top: 50px;
+  margin-bottom: 5%;
 }
 
 #live-info h2 {
   text-align: center;
-  margin-top: 2.5em;
+  padding-top: 4%;
 }
 
 footer {
-  height: 100px;
+  background-color: rgb(110, 173, 221);
 }
 
-.social-networks {
-  margin-left: 15px;
+footer h3 {
+  padding: 3%;
+  margin-left: 2%;
+  display: inline-block;
 }
 
 .social-networks > li {
@@ -264,16 +266,22 @@ footer {
 }
 
 .social-networks i {
-  font-size: 220%;
+  font-size: 250%;
   margin: 2%;
   padding: 3%;
   color: black;
+  border-top: 3px solid transparent;
+
+}
+
+.social-networks i:hover {
+  border-top: 3px solid black;
 }
 
 hr {
   border: 0;
   height: 2px;
-  margin-top: 2.5em;
+  margin-top: 11%;
   background-color: aqua;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
