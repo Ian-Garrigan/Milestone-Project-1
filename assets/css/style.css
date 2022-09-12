@@ -36,6 +36,10 @@
     letter-spacing: 5px;
   }
 
+  header i {
+    font-size: 4vw;
+  }
+
   .link-wrapper {
     background-color: #d9e9f0;
     width: 60vw;
