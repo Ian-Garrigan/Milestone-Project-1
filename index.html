@@ -14,9 +14,9 @@
 <body>
     <header>
         <a href="index.html">
-        <h1>GolfGate</h1><i class="fa-solid fa-golf-ball-tee"></i>
+            <h1>GolfGate</h1><i class="fa-solid fa-golf-ball-tee"></i>
         </a>
-        <!-- links -->
+        <!-- site links -->
         <div class="link-wrapper">
             <nav class="nav-links">
                 <a href="results.html">Results</a>
@@ -25,17 +25,16 @@
                 <a href="#iframe">Weather</a>
             </nav>
         </div>
-        <div class="icons">
-            <!-- import notification bell icon here -->
-            <!-- import golfball or flagstick icon here -->
-        </div>
     </header>
     <hr>
+    <!-- cont DIV with calender/nearby clubs, hot deals -->
     <section id="landing-page">
         <div class="interaction-box">
-            <!-- cont DIV with calender/nearby clubs, hot deals and user profile anchor -->
+            <h3>Quick availability check</h3>
             <form action="user-action.html" id="dropdown-clubs">
-                <label for="golf-club">Select your club: </label>
+                <label for="golf-club" class="labels">
+                    <h4>Select your club:</h4>
+                </label>
                 <select name="golf-club" id="golf-club" required>
                     <option value="Donabate">Donabate</option>
                     <option value="Roganstown">Roganstown</option>
@@ -48,14 +47,21 @@
                     <option value="Luttrellstown">Luttrellstown</option>
                     <option value="Forest Little">Forest Little</option>
                 </select>
+                <label for="play-date" class="labels">
+                    <h4>On what date would you like to play?</h4>
+                </label>
+                <input type="date" id="play-date" name="play-date" required><br>
+                <label for="player-amount" class="labels">
+                    <h4>How many players (max: 4)</h4>
+                </label>
+                <select name="player-number" id="player-amount">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
 
-                <label for="play-date">On what date would you like to play?</label><br>
-                <input type="date" id="play-date" name="play-date" style="margin: 2em" required>
-                <input type="submit" value="Book Now">
             </form>
-            <div id="hot-deals">
-                <h2 id="deals-text">Hot deals</h2>
-            </div>
         </div>
         <div id="hero-image">
             <div class="login-container">
@@ -74,6 +80,7 @@
         </div>
     </section>
     <hr>
+    <!-- Famous quotes to keep in mind -->
     <section class="content-seperator">
         <h2><mark>Daily dose of inspirational quotes</mark></h2>
         <div class="golf-inspo">
