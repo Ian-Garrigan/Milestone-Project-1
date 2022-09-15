@@ -30,8 +30,8 @@
     <!-- cont DIV with calender/nearby clubs, hot deals -->
     <section id="landing-page">
         <div class="interaction-box">
-            <h3>Quick availability check</h3>
-            <form action="user-action.html" id="dropdown-clubs">
+            <h3>Quick availability check <i class="fa-solid fa-book-open-reader"></i></h3>
+            <form target="_blank" action="user-action.html" method="get" id="dropdown-clubs">
                 <label for="golf-club" class="labels">
                     <h4>Select your club:</h4>
                 </label>
@@ -48,22 +48,36 @@
                     <option value="Forest Little">Forest Little</option>
                 </select>
                 <label for="play-date" class="labels">
-                    <h4>On what date would you like to play?</h4>
+                    <h4>On what date would you like to play:</h4>
                 </label>
                 <input type="date" id="play-date" name="play-date" required><br>
-                <label for="player-amount" class="labels">
-                    <h4>How many players (max: 4)</h4>
+                <h4 class="labels">How many players:</h4>
+                <label for="player-amount-1" class="labels">
+                    <h4>1</h4>
                 </label>
-                <select name="player-number" id="player-amount">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-
+                <input type="radio" name="amount" id="player-amount-1" value="1">
+                <label for="player-amount-2" class="labels">
+                    <h4>2</h4>
+                </label>
+                <input type="radio" name="amount" id="player-amount-2" value="2">
+                <label for="player-amount-3" class="labels">
+                    <h4>3</h4>
+                </label>
+                <input type="radio" name="amount" id="player-amount-3" value="3">
+                <label for="player-amount-4" class="labels">
+                    <h4>4</h4>
+                </label>
+                <input type="radio" name="amount" id="player-amount-4" value="4">
+                <label for="player-amount-5" class="labels">
+                    <h4>5</h4>
+                </label>
+                <input type="radio" name="amount" id="player-amount-5" value="5">
+                <br>
+                <input type="submit" value="check!" class="form-button">
             </form>
         </div>
         <div id="hero-image">
+
             <div class="login-container">
                 <form action="user-action.html" method="get" id="hero-login-forms">
                     <label for="username">Username: </label>
