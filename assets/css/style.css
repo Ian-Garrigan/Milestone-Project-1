@@ -295,6 +295,15 @@ footer {
   background-color: #4A5FAB;
 }
 
+#copyright {
+  background-color: #232e46;
+  color: #ffff;
+  padding: 2% 0 1.5%;
+  font-size: 1.3vw;
+  text-align: center;
+  border-top: 2.5px solid #797ab369;
+}
+
 .contact {
   margin: 3%;
   display: inline-block;
