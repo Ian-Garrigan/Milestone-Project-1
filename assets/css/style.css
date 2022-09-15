@@ -168,6 +168,14 @@ select {
   right: 0;
 }
 
+.user-message {
+  margin-left: 7%;
+  position: relative;
+  top: 14%;
+  line-height: 2;
+  font-size: larger;
+}
+
 .login-container {
   width: 14em;
   height: 10em;
@@ -214,6 +222,7 @@ select {
   padding-top: 4%;
   margin-bottom: 11%;
   background-color: #6db6fa82;
+  padding-bottom: 7%;
 }
 
 .golf-inspo {
@@ -294,24 +303,24 @@ select {
   border: 1px solid black;
 }
 
+#news {
+  text-align: start;
+  position: relative;
+  display: inline-block;
+  width: 40vw;
+  left: 53%;
+  margin-top: 11%;
+  bottom: 9vw;
+}
+
 #news-iframe {
   position: relative;
-  width: 60%;
-  padding-bottom: 45%;
-}
-
-#news-iframe iframe {
-  position: absolute;
-  top: 40px;
-  left: 25px;
-  width: 80%;
-  height: 80%;
-  border: 1px solid black;
-}
-
-#news-info {
-  float: right;
-  margin-right: 5%;
+  display: inline-block;
+  top: 45%;
+  right: 40%;
+  width: 50%;
+  height: 45vw;
+  padding-top: 3%;
 }
 
 footer {
