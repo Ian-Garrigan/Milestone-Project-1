@@ -33,9 +33,10 @@
             <h3>Quick availability check <i class="fa-solid fa-book-open-reader"></i></h3>
             <form target="_blank" action="user-action.html" method="get" id="dropdown-clubs">
                 <label for="golf-club" class="labels">
-                    <h4>Select your club:</h4>
+                    Select your club:
                 </label>
                 <select name="golf-club" id="golf-club" required>
+                    <option value="" disabled selected>clubname</option>
                     <option value="Donabate">Donabate</option>
                     <option value="Roganstown">Roganstown</option>
                     <option value="Portmarnock">Portmarnock</option>
@@ -48,28 +49,28 @@
                     <option value="Forest Little">Forest Little</option>
                 </select>
                 <label for="play-date" class="labels">
-                    <h4>On what date would you like to play:</h4>
+                    On what date would you like to play:
                 </label>
                 <input type="date" id="play-date" name="play-date" required><br>
-                <h4 class="labels">How many players:</h4>
+                <p class="labels">How many players:</p>
                 <label for="player-amount-1" class="labels">
-                    <h4>1</h4>
+                    1
                 </label>
                 <input type="radio" name="amount" id="player-amount-1" value="1" checked>
                 <label for="player-amount-2" class="labels">
-                    <h4>2</h4>
+                    2
                 </label>
                 <input type="radio" name="amount" id="player-amount-2" value="2">
                 <label for="player-amount-3" class="labels">
-                    <h4>3</h4>
+                    3
                 </label>
                 <input type="radio" name="amount" id="player-amount-3" value="3">
                 <label for="player-amount-4" class="labels">
-                    <h4>4</h4>
+                    4
                 </label>
                 <input type="radio" name="amount" id="player-amount-4" value="4">
                 <label for="player-amount-5" class="labels">
-                    <h4>5</h4>
+                    5
                 </label>
                 <input type="radio" name="amount" id="player-amount-5" value="5">
                 <br>
@@ -153,7 +154,19 @@
     <!-- News from the pros -->
     <section class="content-seperator">
         <h2><mark>Latest golf news</mark></h2>
+        <div id="news-info">
+            <p>
+                <b>Is the LIV tour here to stay?</b>
+            </p>
+        </div>
+        <div id="news-iframe">
+            <iframe src="https://www.youtube.com/embed/kOU0oGv-5-s"
+                title="PGA Tour REVEALS Their Plan To Battle LIV Golf.." frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
     </section>
+    
     <hr>
     <!-- Social media links and contact us -->
     <footer>

@@ -124,16 +124,17 @@ header i {
 }
 
 
-input, select {
+input,
+select {
   border-radius: 3px;
-    border: 1px solid black;
-    padding: 4px;
-    padding-left: 6px;
-    background-color: #ffffffed;
-    outline-color: #4A5FAB;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-left: 3px;
+  border: 1px solid black;
+  padding: 4px;
+  padding-left: 6px;
+  background-color: #ffffffed;
+  outline-color: #4A5FAB;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 3px;
 }
 
 .labels {
@@ -189,6 +190,7 @@ input, select {
   border: 1px solid black;
   cursor: pointer;
 }
+
 .form-button:hover {
   background-color: #4A5FAB;
   color: #fff;
@@ -292,6 +294,26 @@ input, select {
   border: 1px solid black;
 }
 
+#news-iframe {
+  position: relative;
+  width: 60%;
+  padding-bottom: 45%;
+}
+
+#news-iframe iframe {
+  position: absolute;
+  top: 40px;
+  left: 25px;
+  width: 80%;
+  height: 80%;
+  border: 1px solid black;
+}
+
+#news-info {
+  float: right;
+  margin-right: 5%;
+}
+
 footer {
   background-color: #4A5FAB;
 }
@@ -333,11 +355,6 @@ footer {
   border-top: 4px solid transparent;
 
 }
-
-/* #phone-email {
-  margin-left: 5em;
-  color: #ffff;
-} */
 
 .social-networks i:hover {
   border-top: 4px solid black;
