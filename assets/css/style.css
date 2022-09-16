@@ -179,8 +179,12 @@ select {
   margin-left: 7%;
   position: relative;
   top: 14%;
+  width: 60%;
+  border-radius: 5px;
+  padding: 15px;
   line-height: 2;
   font-size: larger;
+  background-color: #f0ffff1c;
 }
 
 .login-container {
@@ -222,6 +226,12 @@ select {
   right: 10em;
   padding: 13px;
   text-align: center;
+}
+
+.register-container h3 > a {
+  background-color: #f0f0f0;
+  padding: 3px;
+  border: 1px solid black;
 }
 
 .content-seperator {
@@ -361,12 +371,12 @@ footer {
 .social-networks i {
   font-size: 250%;
   margin: 2%;
-  padding: 3%;
+  padding: 10%;
   color: #ffff;
-  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
 
 }
 
 .social-networks i:hover {
-  border-top: 4px solid black;
+  border-bottom: 4px solid black;
 }
