@@ -31,7 +31,7 @@
     <!-- cont DIV with calender/nearby clubs, hot deals -->
     <section id="landing-page">
         <div class="interaction-box">
-            <h3><em>Quick</em></i>&nbsp; availability check</h3>
+            <h3><em>Quick</em>&nbsp; availability check</h3>
             <form action="user-action.html" method="get" id="round-availability">
                 <label for="golf-club" class="labels">
                     Select your club:
@@ -53,7 +53,7 @@
                     On what date would you like to play:
                 </label>
                 <input type="date" id="play-date" name="play-date" required><br>
-                <p class="labels">How many players:</p>
+                <p class="labels">How many players:</p><br class="toggle-display">
                 <label for="player-amount-1" class="labels">
                     1
                 </label>
@@ -95,7 +95,7 @@
             <div class="register-container">
                 <form action="register.html" method="get">
                     <label for="register">Play More Golf</label><br>
-                    <input type="submit" value="Sign Up" class="form-button">
+                    <input type="submit" value="Sign Up" class="form-button" id="register">
                 </form>
             </div>
         </div>
@@ -186,7 +186,7 @@
         <iframe class="weather-widget"
             src="https://www.google.com/maps/d/embed?mid=1wVENLk00gV0dW-pkRJqUSwM5hFcdQJA&ehbc=2E312F"></iframe>
 
-        <br id="toggle-display">
+        <br class="toggle-display">
 
         <iframe class="weather-widget"
             src="https://embed.windy.com/embed2.html?lat=53.385&lon=-6.213&detailLat=53.350&detailLon=-6.260&width=500&height=480&zoom=9&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"></iframe>

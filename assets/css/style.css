@@ -487,6 +487,10 @@ footer {
   #news {
     width: 85%;
   }
+
+  .acc-create {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -530,5 +534,9 @@ footer {
 
   #copyright {
     font-size: 2.6vw;
+  }
+
+  .acc-create {
+    width: 90%;
   }
 }
