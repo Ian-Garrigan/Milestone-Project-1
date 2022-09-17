@@ -178,7 +178,7 @@ select {
 .user-message {
   margin-left: 7%;
   position: relative;
-  top: 14%;
+  top: 17%;
   width: 60%;
   border-radius: 17px;
   padding: 15px;
@@ -238,11 +238,12 @@ select {
 
 #register-form {
   padding: 3%;
-  line-height: 40px;
+  line-height: 2.5em;
 }
 
 .acc-create {
   display: inline-block;
+  width: 40%;
 }
 
 fieldset {
@@ -252,6 +253,12 @@ fieldset {
   margin: 8%;
   border: 1px solid black;
   background-color: #2e83d32e;
+}
+
+#p-signup {
+  width: 70%;
+  display: inline-block;
+  padding-top: 15px;
 }
 
 .content-seperator {
@@ -349,17 +356,23 @@ fieldset {
 #news {
   text-align: start;
   display: inline-block;
-  width: 40vw;
-  padding: 2% 0 2% 2%;
+  width: 51vw;
+  padding: 2%;
+  margin: 2%;
   border: 1px 0 1px 1px solid black;
   border-radius: 5px;
-  margin-top: 10%;
   background-color: azure;
 }
 
 #news-iframe {
-  width: 50%;
-  height: 45vw;
+  width: 75%;
+  height: 43vw;
+  padding: 3%;
+  border: none;
+}
+
+#toggle-display {
+  display: none;
 }
 
 footer {
@@ -452,7 +465,7 @@ footer {
 
   .nav-links {
     word-spacing: 0;
-    font-size: 3.5vw;
+    font-size: 3vw;
     top: 28%;
   }
 }
