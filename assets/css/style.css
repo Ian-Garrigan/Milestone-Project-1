@@ -436,4 +436,23 @@ footer {
     top: 40em;
     right: 33%;
   }
+
+  header {
+    height: 15vw;
+  }
+
+  header, header h1, header i {
+    bottom: -23%;
+    font-size: 6.5vw;
+  }
+
+  .link-wrapper {
+    height: 8.5vw;
+  }
+
+  .nav-links {
+    word-spacing: 0;
+    font-size: 3.5vw;
+    top: 28%;
+  }
 }
