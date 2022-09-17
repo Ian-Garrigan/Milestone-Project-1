@@ -247,7 +247,7 @@ select {
 
 fieldset {
   border-radius: 6px;
-  padding: 4%;
+  padding: 0 3% 4% 3%;
   height: 57%;
   margin: 8%;
   border: 1px solid black;
