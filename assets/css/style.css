@@ -318,22 +318,22 @@ fieldset {
 }
 
 #view-1 {
-  background-image: url(../images/corrstown_golf.jpg);
+  background-image: url(../images/corrstown_golf.webp);
   background-size: cover;
 }
 
 #view-2 {
-  background-image: url(../images/malahide_golf_club.jpg);
+  background-image: url(../images/malahide_golf_club.webp);
   background-size: cover;
 }
 
 #view-3 {
-  background-image: url(../images/castleknock_golf_club.jpg);
+  background-image: url(../images/castleknock_golf_club.webp);
   background-size: cover;
 }
 
 #view-4 {
-  background-image: url(../images/island_golf_club.jpg);
+  background-image: url(../images/island_golf_club.webp);
   background-size: cover;
 }
 
@@ -422,7 +422,7 @@ footer {
 }
 
 /* Media queries */
-/* /* For larger to medium screens size from 1200px wide and down */
+/* /* For larger to medium screens size from 940px wide and down */
 
 @media screen and (max-width: 940px) {
   #hero-image {
@@ -492,7 +492,7 @@ footer {
     width: 60%;
   }
 }
-
+/* For Small Screen Sizes from 450px wide and down */
 @media screen and (max-width: 450px) {
   .golf-course-view {
     margin: 4% 0;
