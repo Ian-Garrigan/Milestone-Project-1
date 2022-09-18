@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GolfGate, Irelands fastest growing golf network. Book with ease and connect with a wide golfing community.">
-    <meta name="keywords" content="golf, golf course, golf booking, booking system, golf member discount, local golf club, golf news, weather, wind">
+    <meta name="description"
+        content="GolfGate, Irelands fastest growing golf network. Book with ease and connect with a wide golfing community.">
+    <meta name="keywords"
+        content="golf, golf course, golf booking, booking system, golf member discount, local golf club, golf news, weather, wind">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>GolfGate</title>
 </head>
@@ -29,7 +31,8 @@
     <!-- User sign-up form -->
     <section class="content-seperator">
         <h2><mark>Irelands fastest growing golf network</mark></h2>
-        <p id="p-signup">As Ireland's largest online tee time marketplace, GolfGate helps golfers and golf courses better
+        <p id="p-signup">As Ireland's largest online tee time marketplace, GolfGate helps golfers and golf courses
+            better
             connect by offering 9-hole and 18-hole tee time bookings at 1,000+ courses, monthly competitions for
             GolfGate members, and easy access to alternative golf experiences.
             GolfGate is dedicated to making golf available for everyone and helping golfers everywhere create their
@@ -41,10 +44,16 @@
             <fieldset>
                 <legend>Your Details</legend>
                 <form action="#" method="get" id="register-form">
-                    <input type="text" name="user-fname" placeholder="First Name*" required><br>
-                    <input type="text" id="last-name" name="user-lname" placeholder="Last Name*" required><br>
-                    <input type="email" name="email-address" placeholder="name@example.com*" required><br>
-                    <input type="password" name="pword" placeholder="Password*" required><br><br>
+                    <label for="fname" class="sr-only">First Name</label>
+                    <input type="text" id="fname" name="user-fname" placeholder="First Name*" required><br>
+                    <label for="lname" class="sr-only">Last Name</label>
+                    <input type="text" id="lname" name="user-lname" placeholder="Last Name*" required><br>
+                    <label for="email-address" class="sr-only">Email Address</label>
+                    <input type="email" id="email-address" name="email-address" placeholder="name@example.com*"
+                        required><br>
+                    <label for="password" class="sr-only">Password</label>
+                    <input type="password" id="password" name="pword" placeholder="Password*" required><br><br>
+                    <label for="country" class="sr-only">Country</label>
                     <select id="country" name="country" style="color: #757575">
                         <option value="" disabled selected>Country</option>
                         <option value="Afghanistan">Afghanistan</option>
@@ -255,6 +264,7 @@
                         <option value="Zambia">Zambia</option>
                         <option value="Zimbabwe">Zimbabwe</option>
                     </select><br>
+                    <label for="county" class="sr-only">County</label>
                     <select id="county" name="county" style="color: #757575">
                         <option value="" disabled selected>County</option>
                         <option value="antrim">Antrim</option>
@@ -290,11 +300,15 @@
                         <option value="wexford">Wexford</option>
                         <option value="wicklow">Wicklow</option>
                     </select><br>
-                    <input type="text" name="eircode" placeholder="Eircode"><br>
-                    <input type="text" name="phone" placeholder="Phone Number"><br>
-                    <input type="number" name="player-handicap" min="0.00" max="54.000" step="0.1" placeholder="Handicap*"
-                        required><br>
-                    <input type="submit" value="Create Account" class="form-button"><br>
+                    <label for="eircode" class="sr-only">Eircode</label>
+                    <input type="text" id="eircode" name="eircode" placeholder="Eircode"><br>
+                    <label for="phone-number" class="sr-only">Phone Number</label>
+                    <input type="text" id="phone-number" name="phone" placeholder="Phone Number"><br>
+                    <label for="handicap-number" class="sr-only">Golf Handicap</label>
+                    <input type="number" id="handicap-number" name="player-handicap" min="0.00" max="54.000" step="0.1"
+                        placeholder="Handicap*" required><br>
+                    <label for="create-account" class="sr-only">Create Account button</label>
+                    <input type="submit" id="create-account" value="Create Account" class="form-button"><br>
                 </form>
                 <label>By creating an account or using our sites or services, I agree to the <u>Terms of Use</u> and
                     acknowledge that I have read the <u>Privacy Policy</u>.</label>
@@ -313,11 +327,10 @@
             src="https://embed.windy.com/embed2.html?lat=53.385&lon=-6.213&detailLat=53.350&detailLon=-6.260&width=500&height=480&zoom=9&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"></iframe>
     </section>
     <footer>
-        <p class="contact"><mark>Connect with us</mark><i class="fa-solid fa-arrow-down-long"></i></p>
-        <p class="contact"><mark>Email & phone</mark><i class="fa-solid fa-arrow-down-long"></i><br>
-            IE phone: <br>+353 567 121 459 <br><time>9am - 5pm</time><br>
-            booking@golfgate.ie
-        </p>
+        <p class="contact"><mark>Connect with us</mark></p>
+        <address class="contact"><p><mark>Email & phone</mark><br>
+            IE phone: <br>+353 567 121 459 <br><time>09:00</time> - <time>17:00</time><br>
+            booking@golfgate.ie</p></address>
         <ul class="social-networks">
             <li>
                 <a href="https://www.facebook.com" target="_blank" rel="noopener"

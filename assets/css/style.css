@@ -144,6 +144,17 @@ select {
   margin-left: 3px;
 }
 
+/* Hidden visually, but present for assistive tech */
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
 .labels {
   display: inline-block;
   padding: 4px;
@@ -390,6 +401,7 @@ footer {
   margin: 2%;
   display: inline;
   position: absolute;
+  color: #ffff;
 }
 
 .contact:nth-child(2) {
