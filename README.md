@@ -121,7 +121,7 @@ The website is comprised of 3 pages. Each page features all of the same header a
 
 HTML and CSS were used to create this website.
 
-### Frameworks, Libraries & Programs Used
+### Libraries & Programs Used
 
 Balsamiq - Used to create rough sketch wireframes.
 
@@ -171,21 +171,20 @@ To achieve a friendly and accessable website to all i abided by some coding rule
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, Bully-Book-Club.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
