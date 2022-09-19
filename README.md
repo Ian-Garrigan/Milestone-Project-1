@@ -156,7 +156,26 @@ To achieve a friendly and accessable website to all i abided by some coding rule
 -Javascript for a go to top of page button would be a future implementation and a hamburger menu for mobiles.
 
 ## Testing 
+- Testing was ongoing throughout the entire build. I became very familair with my Chrome developer tools while building and troubleshooting any issues as I went along. It helped me a lot to try out new pieces of code at troublesome areas where my responsive values did not behave as i wished. 
 
+The following issues were raised during my mid project meeting with my mentor:
+
+- The bottom scrollbar was on because i had an issue with my margin sizes on the landing page and iframe elements spilling out horizontally. I had to resolve the issue by implementing better responsive values em or % percentages and carefully use my dev tools to rewrite code. 
+
+- My form closing tag part of the yellow interaction box was situated on the incorrect line, it also lacked the designated action value and i turned on the required attribute. 
+
+- Old frameborder styling on my iframes was not necessary.
+
+- I tested the lazy loaded attribute on the embedded video and the lighthouse score increased. This opportunity was pointed out to me by lighthouse itself along with other steps i could take like converting my jpg files to webp. Results shown here:
+
+
+![before-lazy-load-off](documentation/pre-lazy-load.png)
+
+ ![afert-lazy-load-on](documentation/after-lazy-load.png)![after-webp-conversion](documentation/after-lazy-load.png)
+
+- I tested the responsiveness by slowly shrinking my browser window and keeping an eye on the pixel width count, if i noticed a bad break in the pages fluidity i inspected the area and made media queries for that specific pixel width. I began by observing each of my pages from top to bottom. Fixing any messy unresponsive and then adding the new code i thought preformed better to the related directory with the file in gitpod. 
+
+- I tested the website on the samsung galaxy S8+, S9+, S20 Ultra, Google Pixel 5, iPhone SE, iPhone XR, iPhone 12 Pro, OnePlus Nord, iPad Air and iPad Mini. The performance for each device was more than good and i was happy with my media queries.
 
 
 ### Validator Testing 
@@ -166,7 +185,7 @@ To achieve a friendly and accessable website to all i abided by some coding rule
 - ![(Jigsaw) validator](https://www.w3.org/Icons/valid-css2-blue) No errors were found when passing through the official Jigsaw CSS validator. 
 
 ### Unfixed Bugs
-
+I did not find any bugs in the website from time of writing. I can only say that on one particular device my friend owns he pointed out to me that header navigation link wrapper was touching the h1 icon to the left. I also could fix the footer to allow more room for extra information and content. 
 
 
 ## Deployment
@@ -189,11 +208,11 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 What if the author has to have a CSS image on a div that contains content
 Sometimes there are dependencies in the CSS stack and messing with it can cause upset the design and layout of the site, or a request to change the code could get hung up in approval from various stakeholders. In cases where the author has to have the background image in the div that wraps up other content, then a hacky fallback is to do this.
 
-`<div class="background-image" >
-<span role="img" aria-label="[place alt text here]> </span>
-</div>`
+    ```<div class="background-image">
+      <span role="img" aria-label="[place alt text here]></span>
+      </div>```
 
--https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient i learnt how to style my <hr> with a unique cool aqua to navy blue linear gradient with the insightfulness here.
+https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient i learnt how to style my horizonatl ruler with a unique aqua navy blue linear gradient with the insightfulness here.
 
 ### Content 
 
