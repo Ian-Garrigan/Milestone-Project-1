@@ -27,7 +27,7 @@ The website uses a palette of vibrant and cool colours that create a sporty feel
 
 ### Typography
 
-Google Fonts was used for the following fonts:
+[Google Fonts](https://fonts.google.com/) was used for the following fonts:
 
 * Days One is used for headings on the site. Letterforms are wide, and the strokes are thick. This makes Days One good for headlines.
 
@@ -88,17 +88,17 @@ The website is comprised of 3 pages. Each page features all of the same header a
 
 - __The News Section__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - Golfgate will publish a news article curated for the golfing communitys interest and any talking points within the world of golf. This will keep our up to date and on our site for a longer time hopefully holding on to any traffic for advertisers to benefit from.
+  - The article is clearly disguinsable within the section and an embedded video allows the user to play media in relation to the topical newsletter. 
 
 ![News Section](documentation/news-section.png)
 
-- __Gallery__
+- __Live weather widget and google map__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The Live weather widget and google map will provide the user with real time wind and rain conditions [Windy](https://www.windy.com/?53.350,-7.152,7) along with an accompanying google map pin pointing each of the club houses in the area. This map is marked specifically for golfgates purposes.  
+  - This section is valuable to the user as they will have a much better judgement of what conditions are on offer. They can take this into consideration when deciding what clothes to wear or how the ball will behave while flying through the sky.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Live weather widget and google map](documentation/live-location-and-weather.png)
 
 - __The Sign Up Page__
 
