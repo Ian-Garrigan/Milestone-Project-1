@@ -185,17 +185,23 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 ## Credits 
 
+-(http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
+What if the author has to have a CSS image on a div that contains content
+Sometimes there are dependencies in the CSS stack and messing with it can cause upset the design and layout of the site, or a request to change the code could get hung up in approval from various stakeholders. In cases where the author has to have the background image in the div that wraps up other content, then a hacky fallback is to do this.
+
+`<div class="background-image" >
+<span role="img" aria-label="[place alt text here]> </span>
+</div>`
+
+-https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient i learnt how to style my <hr> with a unique cool aqua to navy blue linear gradient with the insightfulness here.
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- News Article content here: (https://golf.com/news/padraig-harrington-weighs-in-liv-golf-defectors/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+- The photos used on the home and sign up page are from Pexels open source site
+- The images used for the landing page were from Pixabay. 
+- I used google images to require images of golf clubs already in circulation for viewing purposes
