@@ -111,35 +111,63 @@ The website is comprised of 3 pages. Each page features all of the same header a
 
   - This page is quick and easy to navigate. The sign up form features a stacked input design with placeholder text. I did not forget to make this form accessable for screen readers as i added suitable labels for each input and used css code to hide the labels visually for a sleeker design that fits brilliantly to all screen sizes. 
 
-  ### Mobile Device
+  #### Mobile Device
 
   ![Create your account](documentation/create-account.png)
 
+## Technologies Used
+
+### Languages Used
+
+HTML and CSS were used to create this website.
+
+### Frameworks, Libraries & Programs Used
+
+Balsamiq - Used to create rough sketch wireframes.
+
+Git - For version control.
+
+Github - To save, store the files and deploy the website.
+
+FontAwesome - Used as a link and source for icons displayed on site.
+
+Google Fonts - Used to import the two fonts used for the website.
+
+Pixabay - Used to source copyright free images 
+
+Gitpod - Used as the interactive development environment (IDE) for the project.
+
+
+### Accessibility
+
+To achieve a friendly and accessable website to all i abided by some coding rules to help attain this.
+
+* Semantic tags used throughout each page. 
+* Using aria labels when appropriate. For images on my index.html i had to deploy this through the use of a span tag inside the div which held the css background-image. I will reference the code which helped me do this below. 
+* Ensuring that there is a sufficient colour contrast that scored high in lighthouse. 
+* Ensuring menus are accessible by marking the current page as aria-current=true for screen readers.
+
 ### Features Left to Implement
 
-- Another feature idea
+- Introduce an online shop with python and javascript functions allowing the easy sale of second hand golf equipment dropped off to us by our members. The market for second hand golf clubs is enormous. 
+
+- Monthly competitions with valueable prizes on offer can be helped by a donations form on our website along with a results page outlining the final scores table.
+
+-Javascript for a go to top of page button would be a future implementation and a hamburger menu for mobiles.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- ![W3C validator](https://www.w3.org/Icons/valid-html401) No errors were returned when passing through the official HTML W3C validator.
+
+- ![(Jigsaw) validator](https://www.w3.org/Icons/valid-css2-blue) No errors were found when passing through the official Jigsaw CSS validator. 
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+
 
 ## Deployment
 
