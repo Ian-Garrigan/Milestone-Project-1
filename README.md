@@ -156,6 +156,7 @@ To achieve a friendly and accessable website to all i abided by some coding rule
 -Javascript for a go to top of page button would be a future implementation and a hamburger menu for mobiles.
 
 ## Testing 
+
 - Testing was ongoing throughout the entire build. I became very familair with my Chrome developer tools while building and troubleshooting any issues as I went along. It helped me a lot to try out new pieces of code at troublesome areas where my responsive values did not behave as i wished. 
 
 The following issues were raised during my mid project meeting with my mentor:
@@ -181,24 +182,38 @@ The following issues were raised during my mid project meeting with my mentor:
 ### Validator Testing 
 
 - ![W3C validator](https://www.w3.org/Icons/valid-html401) No errors were returned when passing through the official HTML W3C validator.
+-Screenshots
+![index.html validated](documentation/index-html-validated.png)
+![register.html validated](documentation/index-html-validated.png)
+![user-message.html validated](documentation/user-message-validated.png)
+![account-created.html validated](documentation/account-created-validated.png)
+
+
 
 - ![(Jigsaw) validator](https://www.w3.org/Icons/valid-css2-blue) No errors were found when passing through the official Jigsaw CSS validator. 
+![style.css validated](documentation/css-validated.png)
 
 ### Unfixed Bugs
 I did not find any bugs in the website from time of writing. I can only say that on one particular device my friend owns he pointed out to me that header navigation link wrapper was touching the h1 icon to the left. I also could fix the footer to allow more room for extra information and content. 
 
-
 ## Deployment
 
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/Ian-Garrigan/Milestone-Project-1), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-Github Pages was used to deploy the live website. The instructions to achieve this are below:
+The live link can be found [here](https://ian-garrigan.github.io/Milestone-Project-1/)
 
-1. Log in (or sign up) to Github.
-2. Find the repository for this project, Bully-Book-Club.
-3. Click on the Settings link.
-4. Click on the Pages link in the left hand side navigation bar.
-5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
-6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/Ian-Garrigan/Milestone-Project-1.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ian-Garrigan/Milestone-Project-1)
 
 
 
@@ -208,11 +223,13 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 What if the author has to have a CSS image on a div that contains content
 Sometimes there are dependencies in the CSS stack and messing with it can cause upset the design and layout of the site, or a request to change the code could get hung up in approval from various stakeholders. In cases where the author has to have the background image in the div that wraps up other content, then a hacky fallback is to do this.
 
-    ```<div class="background-image">
-      <span role="img" aria-label="[place alt text here]></span>
-      </div>```
+```html
+<div class="background-image">
+  <span role="img" aria-label="[place alt text here]></span>
+</div>
+```
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient i learnt how to style my horizonatl ruler with a unique aqua navy blue linear gradient with the insightfulness here.
+https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient i learnt how to style my horizonatl ruler with a unique aqua navy blue linear gradient should look here.
 
 ### Content 
 
@@ -221,6 +238,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient i lear
 
 ### Media
 
-- The photos used on the home and sign up page are from Pexels open source site
-- The images used for the landing page were from Pixabay. 
+- The photos used on the home and sign up page are from [Pexels](https://www.pexels.com/) open source site.
+- The images used for the landing page were from [Pixabay](https://pixabay.com/). 
 - I used google images to require images of golf clubs already in circulation for viewing purposes

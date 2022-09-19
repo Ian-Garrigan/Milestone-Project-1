@@ -51,9 +51,13 @@
                     <input type="text" id="lname" name="user-lname" placeholder="Last Name*" required><br>
                     <label for="email-address" class="sr-only">Email Address</label>
                     <input type="email" id="email-address" name="email-address" placeholder="name@example.com*"
-                        required><br>
+                        required>
                     <label for="password" class="sr-only">Password</label>
                     <input type="password" id="password" name="pword" placeholder="Password*" required><br><br>
+                    <label for="handicap-number" class="sr-only">Golf Handicap</label>
+                    <input type="number" id="handicap-number" name="player-handicap" min="0.00" max="54.000" step="0.1"
+                        placeholder="Handicap*" required>
+                    <p>Not Required:</p>
                     <label for="country" class="sr-only">Country</label>
                     <select id="country" name="country" style="color: #757575">
                         <option value="" disabled selected>Country</option>
@@ -305,9 +309,7 @@
                     <input type="text" id="eircode" name="eircode" placeholder="Eircode"><br>
                     <label for="phone-number" class="sr-only">Phone Number</label>
                     <input type="text" id="phone-number" name="phone" placeholder="Phone Number"><br>
-                    <label for="handicap-number" class="sr-only">Golf Handicap</label>
-                    <input type="number" id="handicap-number" name="player-handicap" min="0.00" max="54.000" step="0.1"
-                        placeholder="Handicap*" required><br>
+                    <br>
                     <label for="create-account" class="sr-only">Create Account button</label>
                     <input type="submit" id="create-account" value="Create Account" class="form-button"><br>
                 </form>
