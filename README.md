@@ -100,11 +100,12 @@ The website is comprised of 3 pages. Each page features all of the same header a
 
 ![Live weather widget and google map](documentation/live-location-and-weather.png)
 
-- __The Sign Up Page__
+- __The Footer__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - The footer is designed to be simple and both the connect with us and email/phone text is marked clearly with the websites reoccuring shade of yellow. 
+  - The footer uses the social media icons from [Font Awesome](https://fontawesome.com/) The styles i picked were used to keep the footer clean and compact. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![The Footer](documentation/footer.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
