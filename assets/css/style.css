@@ -199,6 +199,15 @@ select {
   box-shadow: 0 0px 1px 0 rgb(0 0 0 / 2%), 0 0px 29px 0 rgb(0 0 0 / 60%);
 }
 
+#account-created {
+  width: 100%;
+  height: 600px;
+  background: url(../images/account-creation-message.webp);
+  background-position: bottom;
+  position: relative;
+  right: 0;
+}
+
 .login-container {
   width: 14em;
   height: 10em;
