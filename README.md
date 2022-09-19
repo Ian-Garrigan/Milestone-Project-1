@@ -107,9 +107,13 @@ The website is comprised of 3 pages. Each page features all of the same header a
 
 ![The Footer](documentation/footer.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- __The Create your Account Page__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - This page is quick and easy to navigate. The sign up form features a stacked input design with placeholder text. I did not forget to make this form accessable for screen readers as i added suitable labels for each input and used css code to hide the labels visually for a sleeker design that fits brilliantly to all screen sizes. 
+
+  ### Mobile Device
+
+  ![Create your account](documentation/create-account.png)
 
 ### Features Left to Implement
 
